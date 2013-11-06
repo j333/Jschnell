@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+
+html, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Ruda', sans-serif;
+}
+
+body {
+	margin-top: 125px; /* adjust this if the height of the menu bar changes */
+}
+
+.nav {
+	margin-top: 28px; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
+}
+
+footer {
+	padding: 30px 0;
+	text-align: center;
+	font-size: .8em;
+}
+
+.news{
+	margin-bottom: 1.5em;
+}
