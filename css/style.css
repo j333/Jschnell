@@ -4,8 +4,27 @@ html, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Ruda', Tahoma, sans-serif;
 }
 
+html,
+body,
+.map-canvas {
+	height: 100%;
+    margin: 0px;
+	padding: 0px
+}
+
 body {
 	margin-top: 125px; /* adjust this if the height of the menu bar changes */
+}
+h3 {
+	font-size: 18px;
+	margin-top: 0;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 5px 0;
 }
 
 a{
@@ -17,8 +36,88 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
+time {
+	margin-bottom: 20px;
+	display: block;
+	font-style: italic;
+}
+
+article img,
+figure {
+	margin:0 0 30px;
+}
+
+figcaption {
+	font-size:.9em;
+	margin:5px 0;
+	font-style: italic;
+}
+#map-canvas-inicio {
+	width:100%;
+	height: 600px;
+	margin:30px 0;
+}
+#map-canvas-noticia {
+	height: 300px;
+	margin:30px 0;
+}
+
+.well {
+	background:transparent;
+	border: #000 solid thin;
+}
+
+.btn-primary {
+	background-color: #999;
+	border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #000;
+}
+
+.ico {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+}
+.facebook {
+	background-image: url(../img/facebook.png);
+}
+.twitter {
+	background-image: url(../img/twitter.png);
+}
+.googleplus {
+	background-image: url(../img/googleplus.png);
+}
+
+.carousel-caption {
+	top: 2%;
+	left: 2%;
+	text-align: left;
+	width: 30%;
+	background-color: rgba(0,0,0,.5);
+	padding: 5% 10px 10px;
+}
+
+.carousel-caption h3 {
+	font-size: 2.5em;
+}
+
+.carousel-inner > .item > img {
+	width:100%;
+}
+
+.navbar,
+.navbar-brand.logo-nav img,
+.nav {
+	transition:.5s ease;
+}
+
 .form-control:focus {
-border-color: #FFDC00;
+border-color: #999;
 outline: 0;
 -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 220, 0, 0.6);
 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 220, 0, 0.6);
@@ -40,4 +139,43 @@ footer {
 
 .news{
 	margin-bottom: 1.5em;
+}
+/*productos*/
+#productos,
+#servicios {
+	position: absolute;
+	left:0;
+	top:10%;
+}
+#productos h1,
+#servicios h1 {
+	color: #fff;
+	margin-left: 30px;
+}
+#productos li a,
+#servicios li a{
+	display: block;
+	background:rgba(230,30,30,.8);
+	color:#fff;
+	padding:15px 20px;
+	font-size:1.2em;
+	margin-left:0;
+	width:280px;
+	transition: .5s ease;
+}
+#productos li a:hover,
+#servicios li a:hover{
+	margin-left:10px;
+}
+/*servicios*/
+#servicios li a{
+	background:rgba(255,220,0,.8);
+	color:#000;
+}
+
+@media (max-width: 700px) {
+	#productos,
+	#servicios {
+		display: none;
+	}
 }
