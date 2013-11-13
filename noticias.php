@@ -100,11 +100,8 @@
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Ver todas</a></li>
           </ul>
-        </div>
-                <!-- well -->
+        </div><!-- well -->
       </div>
-
-      <hr>
     </div><!-- /.container -->
 
     <?php include 'footer.php'; ?>

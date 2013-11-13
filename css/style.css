@@ -7,13 +7,16 @@ html, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 html,
 body,
 .map-canvas {
-	height: 100%;
+	height: 90%;
     margin: 0px;
 	padding: 0px
 }
 
 body {
 	margin-top: 125px; /* adjust this if the height of the menu bar changes */
+}
+h1 {
+	color: #E61E1E;
 }
 h3 {
 	font-size: 18px;
@@ -34,6 +37,11 @@ a{
 a:hover, a:focus {
 	color: #be1e1e;
 	text-decoration: none;
+}
+
+.navbar-inverse {
+	background-color: #000;
+	border-color: #080808;
 }
 
 time {
@@ -64,7 +72,8 @@ figcaption {
 
 .well {
 	background:transparent;
-	border: #000 solid thin;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 .btn-primary {
@@ -94,12 +103,13 @@ figcaption {
 }
 
 .carousel-caption {
-	top: 2%;
-	left: 2%;
+	top: 0;
+	left: 0;
 	text-align: left;
 	width: 30%;
 	background-color: rgba(0,0,0,.5);
-	padding: 5% 10px 10px;
+	padding: 5% 30px;
+	height: 100%;
 }
 
 .carousel-caption h3 {
@@ -131,15 +141,45 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 220, 0, 0.6)
 	margin-top: 28px; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
 }
 
+.container{
+	padding-bottom: 2em;
+}
+
 footer {
 	padding: 30px 0;
+	background-color: #e5e5e5;
+	color: #969696;
+	font-size: .8em;
+	border-top: 5px solid #f2f2f2;
+}
+footer a{
+	color: #969696;
 }
 .footer_bottom{
 	text-align: center;
 	font-size: .8em;
+	margin-top: 4em;
 }
 .news{
 	margin-bottom: 1.5em;
+}
+
+.navbar > .container .navbar-brand {
+	padding-top: 25px;
+}
+ 
+::-webkit-selection { 
+    background:#FFDC00; 
+    color:#fff; 
+}
+
+::-moz-selection {
+    background:#FFDC00;
+    color:#fff;
+}
+::selection { 
+    background:#FFDC00; 
+    color:#fff;
 }
 /*Inicio*/
 #carousel_imagenes_inicio{
@@ -155,11 +195,8 @@ footer {
 	padding:10px;
 }
 #arneg_logo{
-	width:50px;
-	height:50px;
-	background:red;
-	border-radius:100%;
-	margin:0 auto 10px;
+	width: 60px;
+	height: 60px;
 }
 #arneg span{
 	font-size:.8em;
@@ -181,24 +218,24 @@ footer {
 #carousel_comentarios.carousel,
 #carousel_comentarios .carousel-inner,
 #carousel_comentarios .carousel-inner .item {
-  height: 300px;
+ 	height: 300px;
+ 	background-color: #E61E1E;
+	color: #fff;
 }
 #carousel_comentarios strong,
 #carousel_comentarios i{
 	display:block;
 	max-width:80%;
 	margin:50px auto 0;
+	text-align: center;
 }
 #carousel_comentarios strong{
-	font-family:Georgia,serif;
-	font-style:italic;
-	font-size:2.5em;
-	text-align:center;
+	font-size: 2.5em;
+	font-weight: 300;
 }
 #carousel_comentarios i{
 	font-style:normal;
 	font-size:1em;
-	text-align:right;
 }
 /*productos*/
 #productos,

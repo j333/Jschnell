@@ -33,7 +33,7 @@
     <?php include "header.php"; ?>
 
     <div class="container">
-      <h2>Contacto</h2>
+      <h1>Contacto</h1>
       <div class="row">
         <div class="col-lg-4">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
@@ -79,8 +79,7 @@
       </div>
         <!-- well -->
       </div>
-
-      <hr>
+      
     </div><!-- /.container -->
 
     <?php include "footer.php"; ?>

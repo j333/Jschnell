@@ -48,7 +48,7 @@
             <!-- Wrapper for slides -->
             <div id="carousel_imagenes_inicio" class="carousel-inner">
               <div id="arneg">
-                <div id="arneg_logo"></div>
+                <img id="arneg_logo" src="img/logo_arneg.gif">
                 <span>Representante Comercial Exclusivo</span>
               </div>
               <div class="item active">
@@ -134,7 +134,7 @@
       </div>
     </div>
 
-    <div id="map-canvas-inicio" class="map-canvas"></div>
+    <div id="map-canvas" class="map-canvas"></div>
 
     <div id="carousel_comentarios" class="carousel slide carousel-fade">
       <div class="carousel-inner">
@@ -166,7 +166,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script>
+    <!--<script>
       var map;
       function initialize() {
         var mapOptions = {
@@ -180,6 +180,6 @@
       }
 
       google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+    </script> -->
   </body>
 </html>

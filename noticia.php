@@ -66,7 +66,6 @@
           </ul>
         </div><!-- well -->
       </div>
-      <hr>
     </div><!-- /.container -->
 
     <?php include 'footer.php'; ?>
