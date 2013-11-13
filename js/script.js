@@ -26,4 +26,8 @@ $(document).ready(function(){
 
 	}
 
+	$('#carousel_comentarios').carousel({
+		interval: 3000
+	});
+
 });

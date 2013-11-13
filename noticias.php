@@ -31,32 +31,7 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-          <h1 class="sr-only" href="#content">Jschnell Group</h1>
-          <a class="navbar-brand logo-nav" href="index.html"><img src="img/logo.png"></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="noticias.html">Noticias</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
+    <?php include 'header.php'; ?>
 
     <div class="container">
       <div class="row">
@@ -66,7 +41,7 @@
             <time>Jueves 12 de Noviembre de 2013</time>
             <img class="img-responsive" src="img/new01.jpg" alt="">
             <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.html">Continuar leyendo ></a></p>
+            <p><a href="noticia.php">Continuar leyendo ></a></p>
           </article>
           <hr>
           <article>
@@ -74,7 +49,7 @@
             <time>Jueves 12 de Noviembre de 2013</time>
             <img class="img-responsive" src="img/new02.jpg" alt="">
             <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.html">Continuar leyendo ></a></p>
+            <p><a href="noticia.php">Continuar leyendo ></a></p>
           </article>
           <hr>
           <article>
@@ -82,7 +57,7 @@
             <time>Jueves 12 de Noviembre de 2013</time>
             <img class="img-responsive" src="img/new03.jpg" alt="">
             <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.html">Continuar leyendo ></a></p>
+            <p><a href="noticia.php">Continuar leyendo ></a></p>
           </article>
           <hr>
           <article>
@@ -90,7 +65,7 @@
             <time>Jueves 12 de Noviembre de 2013</time>
             <img class="img-responsive" src="img/new01.jpg" alt="">
             <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.html">Continuar leyendo ></a></p>
+            <p><a href="noticia.php">Continuar leyendo ></a></p>
           </article>
 
           <ul class="pagination">
@@ -130,36 +105,9 @@
       </div>
 
       <hr>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <h3>Servicios</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-          <a class="btn btn-default" href="#">Más Info</a>
-        </div>
-        <div class="col-lg-4">
-          <h3>Productos</h3>
-          <p>Phasellus vestibulum sagittis purus laoreet varius. Pellentesque malesuada malesuada mattis. Aliquam sed porta nisi, eget suscipit dolor. Nam ipsum sapien, rhoncus eu leo eu, ultricies pellentesque tellus.</p>
-          <a class="btn btn-default" href="#">Más Info</a>
-        </div>
-        <address class="col-lg-4">
-          <h3>Contacto</h3>
-          <p>Islas Orcadas del Sur 6877, Carrodilla, Luján de Cuyo, Mendoza, Argentina.</p>
-          <p><strong>T.</strong> +54 (0261) 5888222</p>
-          <p><strong>M.</strong> info@jschnellgroup.com</p>
-        </address>
-      </div>
-      
-      <footer>
-        <hr>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Copyright &copy; Jschnell Group 2013 &middot; Facebook &middot; Twitter &middot; Google+</p>
-          </div>
-        </div>
-      </footer>
-
     </div><!-- /.container -->
+
+    <?php include 'footer.php'; ?>
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
