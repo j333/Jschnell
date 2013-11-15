@@ -85,21 +85,30 @@
 
         <div class="col-lg-4">
           <div class="well input-group">
-            <input type="text" class="form-control" placeholder="Buscar">
+            <input type="text" class="form-control" placeholder="Buscar en noticias">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
             </span>
           </div>
-          <div id="datepicker"></div>
-          <h2>Últimas Noticias</h2>
-          <hr>
-          <ul>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Ver todas</a></li>
-          </ul>
+
+        <div class="row">
+
+          <div id="datepicker" class="col-xs-12 col-sm-6"></div>
+
+          <div class="col-xs-12 col-sm-6">
+            <h2>Últimas Noticias</h2>
+            <hr>
+            <ul>
+              <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+              <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+              <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+              <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+              <li><a href="">Ver todas</a></li>
+            </ul>
+          </div>
+
+        </div>
+
         </div><!-- well -->
       </div>
     </div><!-- /.container -->
@@ -111,10 +120,30 @@
     <!-- Make sure to add jQuery - download the most recent version at http://jquery.com/ -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/script.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script>
       $(function() {$( "#datepicker" ).datepicker();});
+      $(function($){
+          $.datepicker.regional['es'] = {
+              closeText: 'Cerrar',
+              prevText: '<Ant',
+              nextText: 'Sig>',
+              currentText: 'Hoy',
+              monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+              monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+              dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+              dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+              dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+              weekHeader: 'Sm',
+              dateFormat: 'dd/mm/yy',
+              firstDay: 1,
+              isRTL: false,
+              showMonthAfterYear: false,
+              yearSuffix: ''
+          };
+          $.datepicker.setDefaults($.datepicker.regional['es']);
+      });
     </script>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -190,13 +190,15 @@ footer a{
 	right:10px;
 	top:10px;
 	z-index:20;
-	width:100px;
 	background:#fff;
 	padding:10px;
+	width:180px;
 }
 #arneg_logo{
 	width: 60px;
 	height: 60px;
+	float:left;
+	margin-right:15px;
 }
 #arneg span{
 	font-size:.8em;

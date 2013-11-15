@@ -46,43 +46,50 @@
             </ol>
 
             <!-- Wrapper for slides -->
+
+            <div id="arneg">
+              <img id="arneg_logo" src="img/logo_arneg.gif">
+              <span>Representante Comercial Exclusivo</span>
+            </div>
+
             <div id="carousel_imagenes_inicio" class="carousel-inner">
-              <div id="arneg">
-                <img id="arneg_logo" src="img/logo_arneg.gif">
-                <span>Representante Comercial Exclusivo</span>
-              </div>
+
               <div class="item active">
                 <img src="img/new01.jpg" alt="">
                 <div class="carousel-caption">
-                  <h3>Noticia destacada</h3>
+                  <h3>Nuevo frigorífico modelo en Argentina</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, at a iste hic non placeat assumenda fugiat quaerat! Dolores, quae!</p>
                   <a class="btn btn-default" href="#">Más Info</a>
                 </div>
               </div>
+
               <div class="item">
                 <img src="img/new01.jpg" alt="">
                 <div class="carousel-caption">
                   <h3>Nosotros</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, at a iste hic non placeat assumenda fugiat quaerat! Dolores, quae!</p>
+                  <p>Nos proyectamos a a pasos agigantados con una expansión creciente dia a día.</p><p>Conozca quienes somos.</p>
                   <a class="btn btn-default" href="#">Más Info</a>
                 </div>
               </div>
+
               <div class="item">
                 <img src="img/new02.jpg" alt="">
                 <div class="carousel-caption">
                   <h3>Productos</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, at a iste hic non placeat assumenda fugiat quaerat! Dolores, quae!</p>
+                  <p>Con el respaldo de Arneg, contamos con equipamiento de primera línea a nivel internacional a disposición de su negocio.</p>
                   <a class="btn btn-default" href="#">Más Info</a>
                 </div>
               </div>
+
               <div class="item">
                 <img src="img/new03.jpg" alt="">
                 <div class="carousel-caption">
                   <h3>Servicios</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, at a iste hic non placeat assumenda fugiat quaerat! Dolores, quae!</p>
+                  <p>Proveemos a nivel global servicios de ingeniería, suministros, construcción, operación y gestión de proyectos complejos y de gran escala, desde el diseño hasta la puesta en marcha.</p>
                   <a class="btn btn-default" href="#">Más Info</a>
                 </div>
               </div>
+
             </div>
 
           </div>
@@ -166,20 +173,59 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <!--<script>
-      var map;
+    <script>
       function initialize() {
         var mapOptions = {
-          zoom: 8,
+          zoom: 4,
           scrollwheel: false,
-          center: new google.maps.LatLng(-34.397, 150.644),
+          center: new google.maps.LatLng(-40.369141,-60.61687),
           mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+        setMarkers(map, beaches);
+      }
+
+      var beaches = [
+        ['Mendoza', -33.036298,-68.864021, 4],
+        ['Tucuman', -26.804461,-65.249519, 5],
+        ['Bariloche', -41.079351,-71.357918, 3],
+        ['Buenos Aires', -34.642247,-58.405037, 2],
+        ['Córdoba', -31.428663,-64.183846, 1],
+        ['Río Gallegos', -51.631657,-69.22657, 6]
+      ];
+
+      function setMarkers(map, locations) {
+
+        var image = {
+          url: 'img/map.png',
+
+          size: new google.maps.Size(45, 50),
+
+          origin: new google.maps.Point(0,0),
+
+          anchor: new google.maps.Point(22, 50)
         };
-        map = new google.maps.Map(document.getElementById('map-canvas-inicio'),
-            mapOptions);
+
+        var shape = {
+            coord: [1, 1, 1, 20, 18, 20, 18 , 1],
+            type: 'poly'
+        };
+        for (var i = 0; i < locations.length; i++) {
+          var beach = locations[i];
+          var myLatLng = new google.maps.LatLng(beach[1], beach[2]);
+          var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              icon: image,
+              shape: shape,
+              title: beach[0],
+              zIndex: beach[3]
+          });
+        }
       }
 
       google.maps.event.addDomListener(window, 'load', initialize);
-    </script> -->
+    </script>
   </body>
 </html>

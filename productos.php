@@ -55,9 +55,9 @@
           <div id="productos">
             <h1>Productos</h1>
             <ul>
-              <li><a href="">Lorem ipsum dolor sit amet ></a></li>
-              <li><a href="">Sed at pretium turpis ></a></li>
-              <li><a href="">Curabitur nec sapien id velit ></a></li>
+              <li><a href="">Paneles Termoaislantes ></a></li>
+              <li><a href="">Equipamiento Comercial ></a></li>
+              <li><a href="">Sistemas Frigoríficos ></a></li>
             </ul>
           </div>
 
@@ -73,13 +73,13 @@
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    Productos #1
+                    Paneles Termoaislantes
                   </a>
                 </h4>
               </div>
               <div id="collapseOne" class="panel-collapse collapse in">
                 <div class="panel-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                  Ofrecemos una línea de productos y soluciones aislantes especialmente desarrolladas para cubiertas y revestimientos en construcción civil, ya sea en proyecto, fabricación, logística o montaje.
                   <ul>
                     <li><a href="">Lorem ipsum dolor sit amet.</a></li>
                     <li><a href="">Lorem ipsum dolor sit amet, consectetur.</a></li>
@@ -93,7 +93,7 @@
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    Productos #2
+                    Equipamiento Comercial
                   </a>
                 </h4>
               </div>
@@ -113,7 +113,7 @@
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                    Productos #3
+                    Sistemas Frigoríficos
                   </a>
                 </h4>
               </div>
