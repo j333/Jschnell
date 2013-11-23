@@ -15,7 +15,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="nosotros.php">Nosotros</a></li>
             <li><a href="productos.php">Productos</a></li>
             <li><a href="servicios.php">Servicios</a></li>
             <li><a href="noticias.php">Noticias</a></li>

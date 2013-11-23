@@ -33,4 +33,11 @@
 		interval: 3000
 	});
 
+	$("#btn_paneles_termicos").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#info_paneles_termicos").offset().top
+	    }, 2000);
+	    return false;
+	});
+
 });

@@ -32,71 +32,79 @@
 
     <?php include 'header.php'; ?>
 
-    <div class="container">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    	<!-- Indicators -->
+    	<ol class="carousel-indicators">
+    		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    	</ol>
 
-      <div class="row">
-        <div class="col-lg-12">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            </ol>
+    	<!-- Wrapper for slides -->
 
-            <!-- Wrapper for slides -->
+    	<div id="carousel_imagenes_inicio" class="carousel-inner">
 
-            <div id="arneg">
-              <img id="arneg_logo" src="img/logo_arneg.gif">
-              <span>Representante Comercial Exclusivo</span>
-            </div>
+    		<div class="item active">
+    			<img src="img/new01.jpg" alt="">
+    			<div class="carousel-caption">
+	    			<div class="container">
+	    				<h3>Nuevo frigorífico modelo en Argentina</h3>
+	    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, at a iste hic non placeat assumenda fugiat quaerat! Dolores, quae!</p>
+	    				<a class="btn btn-default" href="#">Más Info</a>
+	    			</div>
+    			</div>
+    		</div>
 
-            <div id="carousel_imagenes_inicio" class="carousel-inner">
+    		<div class="item">
+    			<img src="img/new01.jpg" alt="">
+	    		<div class="carousel-caption">
+	    			<div class="container">
+	    				<h3>Nosotros</h3>
+	    				<p>Nos proyectamos a a pasos agigantados con una expansión creciente dia a día.</p><p>Conozca quienes somos.</p>
+	    				<a class="btn btn-default" href="#">Más Info</a>
+	    			</div>
+    			</div>
+    		</div>
 
-              <div class="item active">
-                <img src="img/new01.jpg" alt="">
-                <div class="carousel-caption">
-                  <h3>Nuevo frigorífico modelo en Argentina</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, at a iste hic non placeat assumenda fugiat quaerat! Dolores, quae!</p>
-                  <a class="btn btn-default" href="#">Más Info</a>
-                </div>
-              </div>
+    		<div class="item">
+    			<img src="img/new02.jpg" alt="">
+    			<div class="carousel-caption">
+	    			<div class="container">
+	    				<h3>Productos</h3>
+	    				<p>Con el respaldo de Arneg, contamos con equipamiento de primera línea a nivel internacional a disposición de su negocio.</p>
+	    				<a class="btn btn-default" href="#">Más Info</a>
+	    			</div>
+	    		</div>
+    		</div>
 
-              <div class="item">
-                <img src="img/new01.jpg" alt="">
-                <div class="carousel-caption">
-                  <h3>Nosotros</h3>
-                  <p>Nos proyectamos a a pasos agigantados con una expansión creciente dia a día.</p><p>Conozca quienes somos.</p>
-                  <a class="btn btn-default" href="#">Más Info</a>
-                </div>
-              </div>
+    		<div class="item">
+    			<img src="img/new03.jpg" alt="">
+    			<div class="carousel-caption">
+	    			<div class="container">
+	    				<h3>Servicios</h3>
+	    				<p>Proveemos a nivel global servicios de ingeniería, suministros, construcción, operación y gestión de proyectos complejos y de gran escala, desde el diseño hasta la puesta en marcha.</p>
+	    				<a class="btn btn-default" href="#">Más Info</a>
+	    			</div>
+    			</div>
+    		</div>
 
-              <div class="item">
-                <img src="img/new02.jpg" alt="">
-                <div class="carousel-caption">
-                  <h3>Productos</h3>
-                  <p>Con el respaldo de Arneg, contamos con equipamiento de primera línea a nivel internacional a disposición de su negocio.</p>
-                  <a class="btn btn-default" href="#">Más Info</a>
-                </div>
-              </div>
+    	</div>
 
-              <div class="item">
-                <img src="img/new03.jpg" alt="">
-                <div class="carousel-caption">
-                  <h3>Servicios</h3>
-                  <p>Proveemos a nivel global servicios de ingeniería, suministros, construcción, operación y gestión de proyectos complejos y de gran escala, desde el diseño hasta la puesta en marcha.</p>
-                  <a class="btn btn-default" href="#">Más Info</a>
-                </div>
-              </div>
+    </div>
 
-            </div>
+    <div class="section-colored text-center">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-12">    			
+    				<img id="arneg_logo" src="img/logo-arneg.png">
+    				<strong><p>Representante Comercial Arneg</p></strong>
+    			</div>
+    		</div><!-- /.row -->
+    	</div><!-- /.container -->
+    </div>
 
-          </div>
-        </div>
-      </div>
-      
-      <hr>
+    <div class="container news-inicio">
       
       <div class="row">
         <div class="col-lg-8">
@@ -122,12 +130,6 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="well input-group">
-            <input type="text" class="form-control" placeholder="Buscar">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-            </span>
-          </div>
           <h2>Últimas Noticias</h2>
           <hr>
           <ul>
@@ -200,11 +202,11 @@
         var image = {
           url: 'img/map.png',
 
-          size: new google.maps.Size(45, 50),
+          size: new google.maps.Size(32, 32),
 
           origin: new google.maps.Point(0,0),
 
-          anchor: new google.maps.Point(22, 50)
+          anchor: new google.maps.Point(12, 50)
         };
 
         var shape = {

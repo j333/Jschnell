@@ -36,14 +36,16 @@
       <div class="row">
         <div class="col-lg-8">
           <h2>Nosotros</h2>
-          <time>Jueves 12 de Noviembre de 2013</time>
           <ul>
             <li>tecnología/respaldo arneg</li>
             <li>experiencia / tiempo en la industria</li>
             <li>alcance provincial/internacional (mapa)</li>
             <li>carácter ambiental</li>
             <li>Nombrar empresas con las que se trabaja (?)</li>
-            <li></li>
+            <li>
+              <p>Nuestro emprendedor proyecto ha crecido gracias a la evolución de las tecnologías inteligentes. sto conlleva abuscar propios objetivos económicos interactuando con el medio ambiente, la sociedad y sus clientes.</p>
+              <p>El mejoramiento continuo de la calidad de vida es parte fundamental de nuestros objetivos.</p>
+            </li>
           </ul>
           <p>Ejemplos:</p>
           <strong>NO</strong>
@@ -56,21 +58,50 @@
           <a href="http://www.ostapovich.com/grupo/">historia grupo ostapovich</a>
           <a href="http://www.aitec-intl.com/articulo/18/la-responsabilidad-ambiental-%BFcomo-afecta-a-mi-empresa%3F/">responsabilidad ambiental</a>
           <a href="http://www.masisa.com/chi/nosotros/desarrollo-sostenible/responsabilidad-ambiental.html">responsabilidad ambiental</a>
-          <div id="map-canvas-noticia" class="map-canvas"></div>
         </div>
 
         <div class="col-lg-4">
-          <div class="well input-group">
-            <input type="text" class="form-control" placeholder="Buscar">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-            </span>
-          </div>
+          <br>
           <img class="img-responsive" src="img/new01.jpg" alt="">
+          <br>
           <img class="img-responsive" src="img/new02.jpg" alt="">
         </div><!-- well -->
       </div>
+      <br>
     </div><!-- /.container -->
+
+    <div id="medioambiente" class="section-colored">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2>Medioambiente</h2>
+            <p>Jschnell, consciente del impacto que sus actividades tienen sobre el medio ambiente, las comunidades locales y los clientes con los que interactúa, declara su responsabilidad social y ambiental, garantizando que su desarrollo a largo plazo será sostenible y reflejará los valores y expectativas de la sociedad y de los clientes.</p>
+            <ul>
+              <li>Motivación y valoración de los recursos humanos.</li>
+              <li>Cultura de la seguridad y medio ambiente mediante la promomción de un comportamiento responsable entre los propios colboradores.</li>
+              <li>Aseguramiento en todos los procesos del cumplimiento de los límites establecidos o prescriptos por la normativa vigente sobre la protección del medio ambiente, seguridad y salud.</li>
+              <li>Garantía de mejora contínua en aspectos ambientales, medidas de prevención y protección de riesgos laborales.</li>
+            </ul>
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div>
+
+    <div class="section-colored">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2>Certificación</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, sapiente, facilis consectetur architecto iusto expedita provident modi commodi nobis neque! Qui, distinctio, libero, beatae, impedit excepturi officiis veniam eveniet iure obcaecati aut soluta dolorum voluptatem saepe maiores doloremque facere reiciendis alias! Ratione, voluptatem, laudantium pariatur quaerat assumenda quo iste magni tempore cupiditate consequatur eos dolor inventore quod fuga harum facere placeat corrupti est earum non repellendus ducimus nesciunt nihil repudiandae necessitatibus sint sit possimus. Accusamus, harum minus natus possimus consequatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, iste, vel dolorem laboriosam repellendus adipisci ex aut molestias maiores quaerat consectetur eos et excepturi temporibus autem unde sit voluptatibus facilis?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, necessitatibus quae labore nulla dicta incidunt culpa harum odio saepe mollitia?</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img id="arneg_logo" src="img/iso.jpg">
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div>
 
     <?php include 'footer.php'; ?>
 
@@ -80,21 +111,5 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script>
-      var map;
-      function initialize() {
-        var mapOptions = {
-          zoom: 8,
-          scrollwheel: false,
-          center: new google.maps.LatLng(-34.397, 150.644),
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        map = new google.maps.Map(document.getElementById('map-canvas-noticia'),
-            mapOptions);
-      }
-
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
   </body>
 </html>

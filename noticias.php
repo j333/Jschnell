@@ -84,6 +84,7 @@
         </div>
 
         <div class="col-lg-4">
+          <br>
           <div class="well input-group">
             <input type="text" class="form-control" placeholder="Buscar en noticias">
             <span class="input-group-btn">
@@ -92,10 +93,9 @@
           </div>
 
         <div class="row">
+          <div id="datepicker" class="col-xs-12 col-sm-6 col-lg-12"></div>
 
-          <div id="datepicker" class="col-xs-12 col-sm-6"></div>
-
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-6 col-lg-12">
             <h2>Últimas Noticias</h2>
             <hr>
             <ul>
