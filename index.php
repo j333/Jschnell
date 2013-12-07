@@ -131,7 +131,6 @@
         </div>
         <div class="col-lg-4">
           <h2>Últimas Noticias</h2>
-          <hr>
           <ul>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>

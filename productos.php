@@ -37,8 +37,8 @@
 
     <?php include 'header.php'; ?>
 
-        <div class="demo-2">
-            <div id="slider" class="sl-slider-wrapper">
+    <div class="demo-2">
+      <div id="slider" class="sl-slider-wrapper">
         <div class="sl-slider">
 
           <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
@@ -61,7 +61,7 @@
               <h2><img src="img/productos_frigorifico_thumb.png" alt="" width="430" heigth="200"></h2>
             </div>
           </div>      
- 
+
         </div><!-- /sl-slider -->
 
         <nav id="nav-dots" class="nav-dots">
@@ -71,7 +71,7 @@
         </nav>
 
       </div>
-        </div>
+    </div>
 
           <div id="productos">
             <div class="container">
@@ -108,119 +108,110 @@
               </div>  
             </div>
           </div>
-
-    <br>
-
-    <div class="container">
-      
-      <div class="row">
-        <div class="col-sm-8">
-          <h1 id="h1_productos">Productos</h1>
-          <p><strong>Le ofrecemos soluciones constructivas para cerramientos industriales, viviendas, galpones, cavas, comedores, etc y equipamiento para poner en funcionamiento su negocio. Ahorro energético, velocidad de montaje, menor peso estructural, aislación térmica, mejor terminación superficial y optimización de tiempos de obra.</strong></p>
-          <br>
+        <div class="section-colored text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <strong><p>Le ofrecemos <em>soluciones constructivas</em> para cerramientos industriales, viviendas, galpones, cavas, comedores, etc y equipamiento para poner en funcionamiento su negocio. Ahorro energético, velocidad de montaje, menor peso estructural, aislación térmica, mejor terminación superficial y optimización de tiempos de obra.</p></strong>
+              </div>
+            </div><!-- /.row -->
+          </div><!-- /.container -->
         </div>
 
-        <div class="col-sm-4">
-        </div>
-      </div>
-
-      <div class="row">
-          <div id="info_paneles_termicos" class="row">
+        <div class="container">
+          <div class="row">
+            <div id="info_paneles_termicos" class="row">
               <div class="col-sm-8">
                 <h2>Paneles termoaislantes</h2>
                 <p>Contamos con soluciones constructivas que tienen por objetivo principal ofrecer respuestas integrales a proyectos de gran envergadura. Estos sistemas comprenden una serie de paneles aislantes compuestos con espuma de poliuretano  realizados en una prensa continua de alta tecnología, así como paneles de acero inoxidable u otros materiales.</p>
                 <br>
-                <strong>Principales usos</strong>
+                <h4>Principales usos</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tenetur, minima nesciunt veniam dolor odio laboriosam laudantium porro alias qui ullam blanditiis! Alias illo iste at accusantium blanditiis dolor minus.</p>
                 <br>
-                <strong>Principales ventajas</strong>
+                <h4>Principales ventajas</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tenetur, minima nesciunt veniam dolor odio laboriosam laudantium porro alias qui ullam blanditiis! Alias illo iste at accusantium blanditiis dolor minus.</p>
                 <br>
-                <h2>Categorías:</h2>
+                <h3>Categorías:</h3>
               </div>
               <div class="col-sm-4">
                 <br>
                 <img class="img-responsive" src="img/paneles.jpg" alt="">
               </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="row">
-                <div id="info_multisystem" class="col-sm-4">
-                  <img class="img-responsive" src="img/multisystem_logo.jpg" alt="Multisystem">
-                </div>
-                <div class="col-sm-8">
-                  <p>Sistema de paneles aislantes tipo sandwich, con sistema de unión mediante ganchos excéntricos. Todas las aristas resultas con perfiles europeos tipo ABS y vértices redondeados. La espuma de poliuretano es libre de CFC y tiene una densidad promedio de 40Kg/m3 .</p>
-                  <p><a href="">Más información ></a></p>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="row">
+                  <div id="info_multisystem" class="col-sm-4">
+                    <img class="img-responsive" src="img/multisystem_logo.jpg" alt="Multisystem">
+                  </div>
+                  <div class="col-sm-8">
+                    <p>Sistema de paneles aislantes tipo sandwich, con sistema de unión mediante ganchos excéntricos. Todas las aristas resultas con perfiles europeos tipo ABS y vértices redondeados. La espuma de poliuretano es libre de CFC y tiene una densidad promedio de 40Kg/m3 .</p>
+                    <p><a href="">Más información ></a></p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="row">
-                <img class="col-sm-4 img-responsive" src="img/multisystem_1.jpg" alt="Multisystem">
-                <img class="col-sm-4 img-responsive" src="img/multisystem_2.jpg" alt="Multisystem">
-                <img class="col-sm-4 img-responsive" src="img/multisystem_3.jpg" alt="Multisystem">
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="row">
-                <div id="info_bigsystem" class="col-sm-4">
-                  <img class="img-responsive" src="img/bigsystem_logo.jpg" alt="Bigsystem">
-                </div>
-                <div class="col-sm-8">
-                  <p>Es un sistema que comprende una serie de paneles aislantes, una y espuma inyectada de poliuretano rígido.amplia serie de juntas y elemento de fijación más accesorios y terminaciones para la realización de cámaras frigoríficas de baja y media temperatura, salas de elaboración, túneles frigoríficos y aplicables también en la construcción civil de naves industriales como cerramientos laterales y tabiquería divisoria de alta prestación. Se trata de paneles aislantes tipo sandwich constituidos de dos chapas metálicas.</p>
-                  <p><a href="">Más información ></a></p>
+              <div class="col-xs-12">
+                <div class="row">
+                  <img class="col-sm-4 img-responsive" src="img/multisystem_1.jpg" alt="Multisystem">
+                  <img class="col-sm-4 img-responsive" src="img/multisystem_2.jpg" alt="Multisystem">
+                  <img class="col-sm-4 img-responsive" src="img/multisystem_3.jpg" alt="Multisystem">
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
-              <div class="row">
-                <img class="col-sm-4 img-responsive" src="img/bigsystem_1.jpg" alt="Bigsystem">
-                <img class="col-sm-4 img-responsive" src="img/bigsystem_2.jpg" alt="Bigsystem">
-                <img class="col-sm-4 img-responsive" src="img/bigsystem_3.jpg" alt="Bigsystem">
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="row">
-                <div id="info_megasystem" class="col-sm-4">
-                  <img class="img-responsive" src="img/megasystem_logo.jpg" alt="Megasystem">
-                </div>
-                <div class="col-sm-8">
-                  <p>Megasystem comprende una serie de paneles aislantes compuestos por espuma de poliuretano rígido realizados   en una prensa continua de alta tecnología. Contamos con paneles de 5 y 3 crestas ideales para realizar cubiertas y cerramientos laterales en obras industriales. Es la solución indicada para resolver cerramientos de diferentes estructuras, alivianando el peso propio, brindando un acabado superficial parejo y disminuyendo los tiempos de montaje.</p>
-                  <p><a href="">Más información ></a></p>
+            <hr>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="row">
+                  <div id="info_bigsystem" class="col-sm-4">
+                    <img class="img-responsive" src="img/bigsystem_logo.jpg" alt="Bigsystem">
+                  </div>
+                  <div class="col-sm-8">
+                    <p>Es un sistema que comprende una serie de paneles aislantes, una y espuma inyectada de poliuretano rígido.amplia serie de juntas y elemento de fijación más accesorios y terminaciones para la realización de cámaras frigoríficas de baja y media temperatura, salas de elaboración, túneles frigoríficos y aplicables también en la construcción civil de naves industriales como cerramientos laterales y tabiquería divisoria de alta prestación. Se trata de paneles aislantes tipo sandwich constituidos de dos chapas metálicas.</p>
+                    <p><a href="">Más información ></a></p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="row">
-                <img class="col-sm-4 img-responsive" src="img/megasystem_1.jpg" alt="Megasystem">
-                <img class="col-sm-4 img-responsive" src="img/megasystem_2.jpg" alt="Megasystem">
-                <img class="col-sm-4 img-responsive" src="img/megasystem_3.jpg" alt="Megasystem">
+              <div class="col-xs-12">
+                <div class="row">
+                  <img class="col-sm-4 img-responsive" src="img/bigsystem_1.jpg" alt="Bigsystem">
+                  <img class="col-sm-4 img-responsive" src="img/bigsystem_2.jpg" alt="Bigsystem">
+                  <img class="col-sm-4 img-responsive" src="img/bigsystem_3.jpg" alt="Bigsystem">
+                </div>
               </div>
             </div>
-          </div>
-          <br>
-          <div id="info_equipamiento_comercial" class="row">
-              <div class="col-sm-8">
-                <h2>Equipamiento comercial</h2>
+            <hr>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="row">
+                  <div id="info_megasystem" class="col-sm-4">
+                    <img class="img-responsive" src="img/megasystem_logo.jpg" alt="Megasystem">
+                  </div>
+                  <div class="col-sm-8">
+                    <p>Megasystem comprende una serie de paneles aislantes compuestos por espuma de poliuretano rígido realizados   en una prensa continua de alta tecnología. Contamos con paneles de 5 y 3 crestas ideales para realizar cubiertas y cerramientos laterales en obras industriales. Es la solución indicada para resolver cerramientos de diferentes estructuras, alivianando el peso propio, brindando un acabado superficial parejo y disminuyendo los tiempos de montaje.</p>
+                    <p><a href="">Más información ></a></p>
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-xs-12">
+                <div class="row">
+                  <img class="col-sm-4 img-responsive" src="img/megasystem_1.jpg" alt="Megasystem">
+                  <img class="col-sm-4 img-responsive" src="img/megasystem_2.jpg" alt="Megasystem">
+                  <img class="col-sm-4 img-responsive" src="img/megasystem_3.jpg" alt="Megasystem">
+                </div>
               </div>
-          </div>
-          <br>
-          <div id="info_vitrinas" class="row">
-            <h3>Vitrinas</h3>
-            <div class="col-sm-4 text-center">
-              <img class=" img-responsive" src="img/memphis_bano_maria.jpg" alt="">
-              <strong>Memphis baño maria</strong>
             </div>
+            <br>
+            <div id="info_equipamiento_comercial" class="row">
+              <h2>Equipamiento comercial</h2>
+            </div>
+            <br>
+            <div id="info_vitrinas" class="row">
+              <h3>Vitrinas</h3>
+              <div class="col-sm-4 text-center">
+                <img class=" img-responsive" src="img/memphis_bano_maria.jpg" alt="">
+                <strong>Memphis baño maria</strong>
+              </div>
             <!--div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/memphis_self.jpg" alt="">
               <strong>Memphis self</strong>
@@ -328,11 +319,7 @@
           </div>
           <br>
           <div id="info_sistemas_frigorificos" class="row">
-              <div class="col-sm-8">
-                <h2>Sistemas Frigoríficos</h2>
-              </div>
-              <div class="col-sm-4">
-              </div>
+              <h2>Sistemas Frigoríficos</h2>
           </div>
           <br>
           <div id="info_equipamiento" class="row">
@@ -379,12 +366,12 @@
             </div>
           </div>
           <br>
-      </div>
-      <hr>
-      <h2>¿Buscaba algo más?</h2>
-      <p>Para más información consulte la lista completa de productos y sus especificaciones en el sitio oficial de <a href="http://www.arneg.it/en">Arneg</a></p>
-      <br>
-    </div><!-- /.container -->
+        </div>
+        <hr>
+        <h2>¿Buscaba algo más?</h2>
+        <p>Para más información consulte la lista completa de productos y sus especificaciones en el sitio oficial de <a href="http://www.arneg.it/en">Arneg</a></p>
+        <br>
+      </div><!-- /.container -->
 
     <a id="subir" title="Subir" href=""></a>
 

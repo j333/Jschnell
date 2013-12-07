@@ -64,20 +64,18 @@
             </div>
           </div>
 
-    <br>
+          <div class="section-colored text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <strong><p>En función de sus requerimientos le proveemos una propuesta con la mejor solución, la valuación de la misma, la elaboración del proyecto ejecutivo con definiciones de las características de terminación y montaje con llave en mano.</p>
+                  <p>A través del servicio de Construcción y Montaje Industrial se da respuesta a las crecientes necesidades en el mercado de la construcción, montaje industrial, puesta en marcha y mantenimiento de instalaciones industriales de manera <em>“estandar”</em> o a medida.</p></strong>
+                </div>
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+          </div>
 
     <div class="container">
-      
-      <div class="row">
-        <div class="col-sm-8">
-          <h1 id="h1_servicios">Servicios</h1>
-          <p>En función de sus requerimientos le proveemos una propuesta con la mejor solución, la valuación de la misma, la elaboración del proyecto ejecutivo con definiciones de las características de terminación y montaje con llave en mano.</p>
-          <p>A través del servicio de Construcción y Montaje Industrial se da respuesta a las crecientes necesidades en el mercado de la construcción, montaje industrial, puesta en marcha y mantenimiento de instalaciones industriales de manera “estandar” o a medida.</p>
-          <br>
-        </div>
-        <div class="col-sm-4">
-        </div>
-      </div>
       <div id="info_montajes" class="row">
         <div class="col-sm-4">
           <img class="img-responsive" src="img/servicios_2.jpg" alt="">
