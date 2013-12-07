@@ -115,7 +115,7 @@
             <div class="col-lg-4">
               <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin auctor quam ac tempor.</p>
-              <p><a href="">Leer más</a></p>
+              <p><a href="">Continuar leyendo ></a></p>
             </div>
           </div>
           <div class="row news">
@@ -125,7 +125,7 @@
             <div class="col-lg-4">
               <h3>Lorem ipsum dolor sit amet.</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin auctor quam ac tempor.</p>
-              <p><a href="">Leer más</a></p>
+              <p><a href="">Continuar leyendo ></a></p>
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Ver todas</a></li>
+            <li><a id="ver_mas" href="">Ver más</a></li>
           </ul>
         </div>
       </div>
@@ -166,8 +166,9 @@
       </div>
     </div>
 
-    <?php include 'footer.php'; ?>
+    <a id="subir" title="Subir" href=""></a>
 
+    <?php include 'footer.php'; ?>
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- Make sure to add jQuery - download the most recent version at http://jquery.com/ -->

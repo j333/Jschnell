@@ -221,10 +221,10 @@
               <img class=" img-responsive" src="img/memphis_bano_maria.jpg" alt="">
               <strong>Memphis baño maria</strong>
             </div>
-            <div class="col-sm-4 text-center">
+            <!--div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/memphis_self.jpg" alt="">
               <strong>Memphis self</strong>
-            </div>
+            </div-->
             <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/memphis_vca.jpg" alt="">
               <strong>Memphis vca</strong>
@@ -301,10 +301,10 @@
               <img class="img-responsive" src="img/brema.jpg" alt="">
               <strong>Brema</strong>
             </div>
-            <div class="col-sm-4 text-center">
+            <!--div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/perth.jpg" alt="">
               <strong>Perth</strong>
-            </div>
+            </div-->
           </div>
           <hr>
           <div id="info_pasillos" class="row">
@@ -317,10 +317,10 @@
               <img class="img-responsive" src="img/rv_sin_rinon.jpg" alt="">
               <strong>RV sin riñon</strong>
             </div>
-            <div class="col-sm-4 text-center">
+            <!--div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/rv_twin_b.jpg" alt="">
               <strong>RV twin B</strong>
-            </div>
+            </div-->
             <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/vh_mayorista.jpg" alt="">
               <strong>VH mayorista</strong>
@@ -345,10 +345,10 @@
               <img class="img-responsive" src="img/small.jpg" alt="">
               <strong>Small</strong>
             </div>
-            <div class="col-sm-4 text-center">
+            <!--div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/hpm.jpg" alt="">
               <strong>HPM</strong>
-            </div>
+            </div-->
             <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/hpf.jpg" alt="">
               <strong>HPF</strong>
@@ -385,6 +385,8 @@
       <p>Para más información consulte la lista completa de productos y sus especificaciones en el sitio oficial de <a href="http://www.arneg.it/en">Arneg</a></p>
       <br>
     </div><!-- /.container -->
+
+    <a id="subir" title="Subir" href=""></a>
 
     <?php include 'footer.php'; ?>
 

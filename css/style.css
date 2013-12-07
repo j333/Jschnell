@@ -204,6 +204,17 @@ footer a{
     background:#FFDC00; 
     color:#fff;
 }
+#ver_mas:after{
+	content:"";
+	margin-left:3px;
+	width:17px;
+	height:17px;
+	background:url(../img/ver_mas.png);
+	background-size:100%;
+	background-repeat:no-repeat;
+	display:inline-block;
+	margin-bottom:-4px;
+}
 /*Inicio*/
 #carousel_imagenes_inicio{
 	position:relative;
@@ -251,6 +262,9 @@ footer a{
 .section-colored strong {
 	font-size: 1.5em;
 	font-weight: normal;
+}
+.news-inicio h3{
+	margin-top:10px;
 }
 .container.news-inicio h2{
 	margin-top: 0;
@@ -324,6 +338,21 @@ footer a{
 	margin-left:0;
 	opacity:1;
 }
+#subir{
+	width:60px;
+	height:60px;
+	background:rgba(255,0,0,.5);
+	background-image:url(../img/subir.png);
+	background-size:50%;
+	background-position:50% 40%;
+	background-repeat:no-repeat;
+	border-radius:100%;
+	display:block;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	z-index:30;
+}
 /*servicios*/
 #servicios li a{
 	background:rgba(255,220,0,.8);
@@ -341,7 +370,7 @@ footer a{
 	padding-left:15px;
 }
 #medioambiente ul,li{
-	list-style:disc;
+	/*list-style:disc;*/
 }
 @media (max-width: 800px) {
 	.carousel h3{

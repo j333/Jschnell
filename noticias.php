@@ -104,7 +104,7 @@
               <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
               <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
               <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-              <li><a href="">Ver todas</a></li>
+              <li><a id="ver_mas" href="">Ver más</a></li>
             </ul>
           </div>
 
@@ -114,6 +114,8 @@
       </div>
     </div><!-- /.container -->
 
+    <a id="subir" title="Subir" href=""></a>
+
     <?php include 'footer.php'; ?>
 
     <!-- Bootstrap core JavaScript -->
@@ -121,6 +123,7 @@
     <!-- Make sure to add jQuery - download the most recent version at http://jquery.com/ -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script>
       $(function() {$( "#datepicker" ).datepicker();});

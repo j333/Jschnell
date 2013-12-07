@@ -51,7 +51,7 @@
         <div class="col-sm-4">
           <br>
           <div class="well input-group">
-            <input type="text" class="form-control" placeholder="Buscar">
+            <input type="text" class="form-control" placeholder="Buscar en noticias">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
             </span>
@@ -63,11 +63,13 @@
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Ver todas</a></li>
+            <li><a id="ver_mas" href="">Ver más</a></li>
           </ul>
         </div><!-- well -->
       </div>
     </div><!-- /.container -->
+
+    <a id="subir" title="Subir" href=""></a>
 
     <?php include 'footer.php'; ?>
 
