@@ -32,7 +32,7 @@
 
     <?php include 'header.php'; ?>
 
-    <div class="container">
+    <div class="container margin">
       <div class="row">
         <div class="col-sm-8">
           <h1>Nosotros</h1>

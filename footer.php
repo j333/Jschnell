@@ -39,7 +39,7 @@
           </div>
           <div class="row footer_bottom">
             <div class="col-sm-12">
-              <p>Copyright &copy; Jschnell Group 2013 &middot; Facebook &middot; Twitter &middot; Google+</p>
+              <p>Copyright &copy; Jschnell Group 2013 &middot; <a href="">Facebook</a> &middot; <a href="">Twitter</a> &middot; <a href="">Google+</a></p>
             </div>
           </div>
         </div>

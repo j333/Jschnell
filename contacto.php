@@ -32,7 +32,7 @@
 
     <?php include "header.php"; ?>
 
-    <div class="container">
+    <div class="container margin">
       <h1>Contacto</h1>
 
       <div class="row">
@@ -78,7 +78,7 @@
                   <textarea name="message" id="message" class="form-control" rows="12"></textarea>
               </div>
               <div class="col-md-12">
-                <button type="submit" class="btn btn-primary pull-right">Enviar</button>
+                <button type="submit" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-send"></i>  Enviar</button>
               </div>
           </div>
       </div>

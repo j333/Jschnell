@@ -33,16 +33,16 @@
 
     <?php include 'header.php'; ?>
 
-    <div class="container">
+    <div class="container margin">
       <div class="row">
         <div class="col-sm-8">
-          <h1 id="h1_noticias">Noticias</h1>
+          <h1>Noticias</h1>
           <article>
             <h2>Título de una noticia de ejemplo</h2>
             <time>Jueves 12 de Noviembre de 2013</time>
             <img class="img-responsive" src="img/new01.jpg" alt="">
             <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.php">Continuar leyendo ></a></p>
+            <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
           </article>
           <hr>
           <article>
@@ -50,7 +50,7 @@
             <time>Jueves 12 de Noviembre de 2013</time>
             <img class="img-responsive" src="img/new02.jpg" alt="">
             <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.php">Continuar leyendo ></a></p>
+            <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
           </article>
           <hr>
           <article>
@@ -58,7 +58,7 @@
             <time>Jueves 12 de Noviembre de 2013</time>
             <img class="img-responsive" src="img/new03.jpg" alt="">
             <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.php">Continuar leyendo ></a></p>
+            <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
           </article>
           <hr>
           <article>
@@ -66,7 +66,7 @@
             <time>Jueves 12 de Noviembre de 2013</time>
             <img class="img-responsive" src="img/new01.jpg" alt="">
             <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.php">Continuar leyendo ></a></p>
+            <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
           </article>
 
           <ul class="pagination">
@@ -86,12 +86,13 @@
 
         <div class="col-sm-4">
           <br>
-          <div class="well input-group">
+          <div class="input-group">
             <input type="text" class="form-control" placeholder="Buscar en noticias">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
             </span>
           </div>
+          <br>
 
         <div class="row">
           <div id="datepicker" class="col-xs-12 col-sm-12"></div>
@@ -103,7 +104,7 @@
               <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
               <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
               <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-              <li><a id="ver_mas" href="">Ver más</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-plus"></i> Ver más</a></li>
             </ul>
           </div>
 

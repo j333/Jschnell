@@ -32,10 +32,10 @@
 
     <?php include 'header.php'; ?>
 
-    <div class="container">
+    <div class="container margin">
       <div class="row">
         <div class="col-sm-8">
-          <h2>Título de una noticia de ejemplo</h2>
+          <h1>Título de una noticia de ejemplo</h1>
           <time>Jueves 12 de Noviembre de 2013</time>
           <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, distinctio, error dolorem minima iusto non vitae odit culpa blanditiis nihil aperiam id corrupti quod dignissimos incidunt ipsum illum quis eius.</p>
@@ -50,19 +50,20 @@
 
         <div class="col-sm-4">
           <br>
-          <div class="well input-group">
+          <div class="input-group">
             <input type="text" class="form-control" placeholder="Buscar en noticias">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
             </span>
           </div>
+          <br>
           <h2>Últimas Noticias</h2>
           <ul>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a id="ver_mas" href="">Ver más</a></li>
+            <li><a href="">Ver más <i class="glyphicon glyphicon-chevron-right"></i></a></li>
           </ul>
         </div><!-- well -->
       </div>

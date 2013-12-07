@@ -147,7 +147,7 @@
                   </div>
                   <div class="col-sm-8">
                     <p>Sistema de paneles aislantes tipo sandwich, con sistema de unión mediante ganchos excéntricos. Todas las aristas resultas con perfiles europeos tipo ABS y vértices redondeados. La espuma de poliuretano es libre de CFC y tiene una densidad promedio de 40Kg/m3 .</p>
-                    <p><a href="">Más información ></a></p>
+                    <p><a href=""><i class="glyphicon glyphicon-plus"></i> Más información</a></p>
                   </div>
                 </div>
               </div>
@@ -168,7 +168,7 @@
                   </div>
                   <div class="col-sm-8">
                     <p>Es un sistema que comprende una serie de paneles aislantes, una y espuma inyectada de poliuretano rígido.amplia serie de juntas y elemento de fijación más accesorios y terminaciones para la realización de cámaras frigoríficas de baja y media temperatura, salas de elaboración, túneles frigoríficos y aplicables también en la construcción civil de naves industriales como cerramientos laterales y tabiquería divisoria de alta prestación. Se trata de paneles aislantes tipo sandwich constituidos de dos chapas metálicas.</p>
-                    <p><a href="">Más información ></a></p>
+                    <p><a href=""><i class="glyphicon glyphicon-plus"></i> Más información</a></p>
                   </div>
                 </div>
               </div>
@@ -189,7 +189,7 @@
                   </div>
                   <div class="col-sm-8">
                     <p>Megasystem comprende una serie de paneles aislantes compuestos por espuma de poliuretano rígido realizados   en una prensa continua de alta tecnología. Contamos con paneles de 5 y 3 crestas ideales para realizar cubiertas y cerramientos laterales en obras industriales. Es la solución indicada para resolver cerramientos de diferentes estructuras, alivianando el peso propio, brindando un acabado superficial parejo y disminuyendo los tiempos de montaje.</p>
-                    <p><a href="">Más información ></a></p>
+                    <p><a href=""><i class="glyphicon glyphicon-plus"></i> Más información</a></p>
                   </div>
                 </div>
               </div>

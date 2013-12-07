@@ -76,6 +76,8 @@
           </div>
 
     <div class="container">
+      <h1>Servicios</h1>
+      <br>
       <div id="info_montajes" class="row">
         <div class="col-sm-4">
           <img class="img-responsive" src="img/servicios_2.jpg" alt="">

@@ -51,7 +51,7 @@
 	    			<div class="container">
 	    				<h3>Nuevo frigorífico modelo en Argentina</h3>
 	    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, at a iste hic non placeat assumenda fugiat quaerat! Dolores, quae!</p>
-	    				<a class="btn btn-default" href="#">Más Info</a>
+	    				<a class="btn btn-default" href="#"><i class="glyphicon glyphicon-plus"></i> Más Info</a>
 	    			</div>
     			</div>
     		</div>
@@ -62,7 +62,7 @@
 	    			<div class="container">
 	    				<h3>Nosotros</h3>
 	    				<p>Nos proyectamos a pasos ciertos y sostenidos con una expansión creciente dia a día. Conozca quienes somos.</p>
-	    				<a class="btn btn-default" href="#">Más Info</a>
+	    				<a class="btn btn-default" href="#"><i class="glyphicon glyphicon-plus"></i> Más Info</a>
 	    			</div>
     			</div>
     		</div>
@@ -73,7 +73,7 @@
 	    			<div class="container">
 	    				<h3>Productos</h3>
 	    				<p> Con el respaldo de Arneg, contamos con equipamiento de primera línea y alta tecnología a nivel internacional a  medida de su negocio.</p>
-	    				<a class="btn btn-default" href="#">Más Info</a>
+	    				<a class="btn btn-default" href="#"><i class="glyphicon glyphicon-plus"></i> Más Info</a>
 	    			</div>
 	    		</div>
     		</div>
@@ -84,7 +84,7 @@
 	    			<div class="container">
 	    				<h3>Servicios</h3>
 	    				<p>Proveemos servicios de ingeniería, suministros, montaje e instalación, como también operación y gestión de proyectos minoristas, industriales, complejos y de gran escala desde el diseño hasta la puesta en marcha.</p>
-	    				<a class="btn btn-default" href="#">Más Info</a>
+	    				<a class="btn btn-default" href="#"><i class="glyphicon glyphicon-plus"></i> Más Info</a>
 	    			</div>
     			</div>
     		</div>
@@ -115,7 +115,7 @@
             <div class="col-lg-4">
               <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin auctor quam ac tempor.</p>
-              <p><a href="">Continuar leyendo ></a></p>
+              <p><a href=""><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
             </div>
           </div>
           <div class="row news">
@@ -125,7 +125,7 @@
             <div class="col-lg-4">
               <h3>Lorem ipsum dolor sit amet.</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin auctor quam ac tempor.</p>
-              <p><a href="">Continuar leyendo ></a></p>
+              <p><a href=""><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
             <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a id="ver_mas" href="">Ver más</a></li>
+            <li><a href=""><i class="glyphicon glyphicon-plus"></i> Ver más</a></li>
           </ul>
         </div>
       </div>
