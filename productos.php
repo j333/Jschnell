@@ -35,7 +35,71 @@
 
   <body>
 
-    <?php include 'header.php'; ?>
+    <!-- header -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+          <h1 class="sr-only" href="#content">Jschnell Group</h1>
+          <a class="navbar-brand logo-nav" href="index.php"><img src="img/logo.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li id="btn_productos"><a href="productos.php">Productos</a>
+              <ul id="productos">
+                <li>
+                  <a id="btn_paneles_termicos" href="">Paneles Termoaislantes</a>
+                  <ul class="cont_interno uno">
+                    <li><a id="btn_bigsystem" href="">Bigsystem</a></li>
+                    <li><a id="btn_multisystem" href="">Multisystem</a></li>
+                    <li><a id="btn_megasystem" href="">Megasystem</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a id="btn_equipamiento_comercial" href="">Equipamiento Comercial</a>
+                  <ul class="cont_interno dos">
+                    <li><a id="btn_vitrinas" href="">Vitrinas</a></li>
+                    <li><a id="btn_murales" href="">Murales</a></li>
+                    <li><a id="btn_islas" href="">Islas</a></li>
+                    <li><a id="btn_autocontenidos" href="">Autocontenidos</a></li>
+                    <li><a id="btn_congelados" href="">Congelados</a></li>
+                    <li><a id="btn_pasillos" href="">Pasillos de revisión</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a id="btn_sist_frigorificos" href="">Sistemas Frigoríficos</a>
+                  <ul class="cont_interno tres">
+                    <li><a id="btn_equipamiento" href="">Equipamiento frigorífico</a></li>
+                    <li><a id="btn_camaras" href="">Mini camaras</a></li>
+                    <li><a id="btn_puertas" href="">Puertas</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </li> 
+            <li id="btn_servicios">
+              <a href="servicios.php">Servicios</a>
+              <ul id="servicios">
+                <li><a id="btn_montajes" href="servicios.php#info_montajes">Montajes</a></li>
+                <li><a id="btn_servicio" href="servicios.php#info_servicio">Servicio Técnico Especializado</a></li>
+                <li><a id="btn_instalaciones" href="servicios.php#info_instalaciones">Instalaciones</a></li>
+              </ul>
+            </li>
+            <li><a href="noticias.php">Noticias</a></li>
+            <li><a href="nosotros.php">Nosotros</a></li>
+            <li><a href="contacto.php">Contacto</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
 
     <div class="demo-2">
       <div id="slider" class="sl-slider-wrapper">
@@ -44,21 +108,22 @@
           <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
             <div class="sl-slide-inner">
               <div class="bg-img bg-img-1"></div>
-              <h2><img src="img/productos_paneles_thumb.png" alt="" width="430" heigth="200"></h2>
+              <!--h2 class="nombre_producto">Paneles termoaislantes</h2-->
+              <h2><span>Paneles termoaislantes</span> <img src="img/productos_paneles_thumb.png" alt="" width="430" heigth="200"></h2>
             </div>
           </div>
           
           <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
             <div class="sl-slide-inner">
               <div class="bg-img bg-img-2"></div>
-              <h2><img src="img/productos_equipamiento_thumb.png" alt="" width="430" heigth="200"></h2>
+              <h2><span>Equipamineto comercial</span><img src="img/productos_equipamiento_thumb.png" alt="" width="430" heigth="200"></h2>
             </div>
           </div>
           
           <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
             <div class="sl-slide-inner">
               <div class="bg-img bg-img-3"></div>
-              <h2><img src="img/productos_frigorifico_thumb.png" alt="" width="430" heigth="200"></h2>
+              <h2><span>Sistemas frigoríficos</span><img src="img/productos_frigorifico_thumb.png" alt="" width="430" heigth="200"></h2>
             </div>
           </div>      
 
@@ -73,7 +138,7 @@
       </div>
     </div>
 
-          <div id="productos">
+          <!--div id="productos">
             <div class="container">
               <div class="row">
                 <div class="col-sm-12">
@@ -107,7 +172,8 @@
                 </div>
               </div>  
             </div>
-          </div>
+          </div-->
+
         <div class="section-colored text-center">
           <div class="container">
             <div class="row">
@@ -212,19 +278,27 @@
                 <img class=" img-responsive" src="img/memphis_bano_maria.jpg" alt="">
                 <strong>Memphis baño maria</strong>
               </div>
-            <!--div class="col-sm-4 text-center">
-              <img class="img-responsive" src="img/memphis_self.jpg" alt="">
-              <strong>Memphis self</strong>
-            </div-->
-            <div class="col-sm-4 text-center">
-              <img class="img-responsive" src="img/memphis_vca.jpg" alt="">
-              <strong>Memphis vca</strong>
+              <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="img/memphis_self.jpg" alt="">
+                <strong>Memphis self</strong>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="img/memphis_vca.jpg" alt="">
+                <strong>Memphis vca</strong>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="img/memphis_vcb.jpg" alt="">
+                <strong>Memphis vcb</strong>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="img/orlando.jpg" alt="">
+                <strong>Orlando</strong>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="img/laguna.jpg" alt="">
+                <strong>Laguna</strong>
+              </div>
             </div>
-            <div class="col-sm-4 text-center">
-              <img class="img-responsive" src="img/memphis_vcb.jpg" alt="">
-              <strong>Memphis vcb</strong>
-            </div>
-          </div>
           <hr>
           <div id="info_murales" class="row">
             <h3>Murales</h3>
@@ -235,6 +309,10 @@
             <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/taipei.jpg" alt="">
               <strong>Taipei</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/lisbona1500.jpg" alt="">
+              <strong>Lisbona 1500</strong>
             </div>
           </div>
           <hr>
@@ -247,6 +325,22 @@
             <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/tarbes.jpg" alt="">
               <strong>Tarbes</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/ginebra.jpg" alt="">
+              <strong>Ginebra</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/lucerna.jpg" alt="">
+              <strong>Lucerna</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/valdes.jpg" alt="">
+              <strong>Valdes</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/delfi.jpg" alt="">
+              <strong>Delfi</strong>
             </div>
           </div>
           <hr>
@@ -300,6 +394,7 @@
           <hr>
           <div id="info_pasillos" class="row">
             <h3>Pasillos de revisión</h3>
+
             <div class="col-sm-4 text-center">
               <img class=" img-responsive" src="img/rv_con_rinon.jpg" alt="">
               <strong>RV con riñon</strong>
@@ -308,13 +403,21 @@
               <img class="img-responsive" src="img/rv_sin_rinon.jpg" alt="">
               <strong>RV sin riñon</strong>
             </div>
-            <!--div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/rv_twin_b.jpg" alt="">
               <strong>RV twin B</strong>
-            </div-->
+            </div>
             <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/vh_mayorista.jpg" alt="">
               <strong>VH mayorista</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/vh-twin.jpg" alt="">
+              <strong>VH twin</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/rv-twin.jpg" alt="">
+              <strong>RV twin</strong>
             </div>
           </div>
           <br>
@@ -332,13 +435,21 @@
               <img class="img-responsive" src="img/small.jpg" alt="">
               <strong>Small</strong>
             </div>
-            <!--div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/hpm.jpg" alt="">
               <strong>HPM</strong>
-            </div-->
+            </div>
             <div class="col-sm-4 text-center">
               <img class="img-responsive" src="img/hpf.jpg" alt="">
               <strong>HPF</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/tokyo.jpg" alt="">
+              <strong>Tokyo</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="img/trento.jpg" alt="">
+              <strong>Trento</strong>
             </div>
           </div>
           <hr>
@@ -348,13 +459,16 @@
               <img class=" img-responsive" src="img/mini_camara_multi.jpg" alt="">
               <strong>Mini cámara multi</strong>
             </div>
+            <div class="col-sm-8 text-center">
+              <img class=" img-responsive" src="img/minicamaras.jpg" alt="">
+            </div>
           </div>
           <hr>
           <div id="info_puertas" class="row">
             <h3>Puertas</h3>
             <div class="col-sm-4 text-center">
               <img class=" img-responsive" src="img/puertas_pivotantes.jpg" alt="">
-              <strong>puertas pivotantes</strong>
+              <strong>Puertas pivotantes</strong>
             </div>
             <div class="col-sm-4 text-center">
               <img class=" img-responsive" src="img/puertas_semiaislantes_oficina.jpg" alt="">
@@ -363,6 +477,18 @@
             <div class="col-sm-4 text-center">
               <img class=" img-responsive" src="img/puertas_semiaislantes_vaiven.jpg" alt="">
               <strong>Puertas semiaislantes vaiven</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class=" img-responsive" src="img/puertas_corredizas_isometricas.jpg" alt="">
+              <strong>Puertas corredizas isométricas</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class=" img-responsive" src="img/puertas_corredizas_isometricas_paso_riel.jpg" alt="">
+              <strong>Puertas corredizas isométricas con paso riel</strong>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class=" img-responsive" src="img/puertas_corredizas_isometricas-control-remoto.jpg" alt="">
+              <strong>Puertas corredizas isométricas con control remoto</strong>
             </div>
           </div>
           <br>

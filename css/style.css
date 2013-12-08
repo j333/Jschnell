@@ -277,66 +277,55 @@ footer a{
 	display:block;
 }
 /*productos*/
-#productos,
-#servicios {
-	position: absolute;
-	left:0;
-	top:130px;
-	width:100%;
-	z-index:10;
-}
-#productos li{
-	list-style:none;
-}
-#productos li a,
-#servicios li a{
-	display: block;
-	background:rgba(230,30,30,.8);
-	color:#fff;
-	padding:15px 20px;
-	font-size:1.2em;
-	margin-left:0;
-	width:300px;
-}
-#productos li a:hover,
-#servicios li a:hover{
-	margin-left:10px;
-}
-#productos li:hover .cont_interno{
-	opacity:1;
-	display:block;
-}
-.producto_lista{
-	display:block;
+#btn_productos,
+#btn_servicios{
 	position:relative;
-	margin:1px;
-	width:280px
+}
+#productos,
+#servicios{
+	display:none;
+	position:absolute;
+	top:50px;
+	left:0;
+	width:230px;
+	background:#F2F2F2;
+	padding:0;
+}
+#productos a,
+#servicios a{
+	color:#000;
+	display:block;
+}
+#productos > li,
+#productos > li:hover > ul.cont_interno > li,
+#servicios > li{
+	padding:10px 20px;
+}
+#productos > li:hover,
+#servicios > li:hover{
+	background:#DBDBD3;
+}
+#productos > li > ul.cont_interno{
+	display:none;
+	position:absolute;
+	top:0px;
+	left:230px;
+	width:230px;
+	background:#DBDBD3;
+	padding:0;
+}
+#productos > li:hover > ul.cont_interno{
+	display:block;
+}
+#productos > li:hover > ul.cont_interno > li:hover{
+	background:#C9C9C3;
+}
+#btn_productos:hover #productos,
+#btn_servicios:hover #servicios{
+	display:block;
 }
 .cont_interno{
-	background:rgba(255,255,255,.9);
-	padding:0px 10px;
-	left:300px;
-	position:absolute;
-	top:0;
-	z-index:20;
-	opacity:0;
-	transition:.5s ease;
 	display:none;
-}
-.cont_interno.dos{
-	top:-160px;
-}
-.cont_interno.tres{
-	top:-40px;
-}
-#productos .cont_interno li a{
-	color:#000;
-	background:transparent;
-	display:block;
-}
-#productos .cont_interno li a:hover{
-	margin-left:0;
-	opacity:1;
 }
 #subir{
 	width:60px;
@@ -357,10 +346,6 @@ footer a{
 	background-color: #E61E1E;
 }
 /*servicios*/
-#servicios li a{
-	background:rgba(255,220,0,.8);
-	color:#000;
-}
 /*nosotros*/
 #medioambiente{
 	background-image:url(../img/medio-ambiente.jpg);

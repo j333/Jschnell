@@ -29,7 +29,15 @@
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
 }
 .demo-2 .sl-slider h2 img {
-	float: right;
+	float:right;
+	margin-top:-200px;
+}
+.demo-2 .sl-slider h2 span{
+	font-size:48px;
+	width:300px;
+	display:block;
+	margin-top:100px;
+	text-shadow:0 1px 3px #000;
 }
 .demo-2 .sl-slider blockquote {
 	font-size: 28px;
@@ -365,6 +373,16 @@
 }
 .demo-2 .bg-img-3 {
 	background-image: url(../img/productos_frigorificos.jpg);
+}
+
+#slide_servicios.demo-2 .bg-img-1 {
+	background-image: url(../img/servicios.jpg);
+}
+#slide_servicios.demo-2 .bg-img-2 {
+	background-image: url(../img/servicio_tecnico.jpg);
+}
+#slide_servicios.demo-2 .bg-img-3 {
+	background-image: url(../img/instalaciones.jpg);
 }
 
 /* Animations for content elements */
