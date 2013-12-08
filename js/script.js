@@ -22,13 +22,26 @@
 		}
 	}
 
+	function noMenuDesplegable(){
+		$("#productos,#servicios").remove();
+	}
+
+	$( window ).resize(function() {
+		if( $(window).width() < 768) {
+			noMenuDesplegable();
+		}
+	});
+
+	if( $(window).width() < 768) {
+		noMenuDesplegable();
+	}
+
 	if( $(window).width() > 768) {
 
 		scroll();
 		$(window).scroll(function(){
 			scroll();
 		});
-
 	}
 
 	$('#carousel_comentarios').carousel({
