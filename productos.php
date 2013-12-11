@@ -178,7 +178,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
-                <strong><p>Le ofrecemos <em>soluciones constructivas</em> para cerramientos industriales, viviendas, galpones, cavas, comedores, etc y equipamiento para poner en funcionamiento su negocio. Ahorro energético, velocidad de montaje, menor peso estructural, aislación térmica, mejor terminación superficial y optimización de tiempos de obra.</p></strong>
+                <strong>De la mano y el respaldo de ARNEG ARGENTINA S.A., contamos con un amplio portafolio de productos y equipamientos de ultima generación y la mas alta tecnología, con las últimas tendencias en el mundo del Frio, y conservación de productos alimenticios. Como así también asistiendo los proyectos del tipo standart, a medida y entrega de trabajos llave en mano.</strong>
               </div>
             </div><!-- /.row -->
           </div><!-- /.container -->

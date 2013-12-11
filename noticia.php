@@ -35,17 +35,16 @@
     <div class="container margin">
       <div class="row">
         <div class="col-sm-8">
-          <h1>Título de una noticia de ejemplo</h1>
+          <h1>JSCHNELL GROUP, estuvo durante los últimos días en la Cdad. Capital de Salta.</h1>
           <time>Jueves 12 de Noviembre de 2013</time>
-          <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, distinctio, error dolorem minima iusto non vitae odit culpa blanditiis nihil aperiam id corrupti quod dignissimos incidunt ipsum illum quis eius.</p>
+          <p>Terminando de Poner en Marcha, el "Sistema Central de Frío Alimentario", en la nueva Sucursal de la cadena local, DAMESCO.</p>
+          <p>Allí, se realizo el montaje de Camaras Frigoríficas, para alimentos perecederos. También se instalaron todas las exhibidoras para Carnes, Lácteos, Fiambres, Pozos de Frio, para productos Congelados, etc.</p>
+          <p>Otra grata experiencia, que compartimos junto a los productos de la línea ARNEG.</p>
           <figure>
             <img class="img-responsive" src="img/new01.jpg" alt="">
-            <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption>
+            <!--figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption-->
           </figure>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eos deserunt incidunt ex officia voluptatibus corporis consequatur adipisci reprehenderit impedit eius quos eligendi at enim quibusdam sequi cum sunt velit tempora ea commodi accusamus in. Hic, officiis ea nulla explicabo quisquam dolor! Animi, tempora perferendis accusantium eos deleniti omnis quas!</p>
           <div id="map-canvas-noticia" class="map-canvas"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, distinctio, error dolorem minima iusto non vitae odit culpa blanditiis nihil aperiam id corrupti quod dignissimos incidunt ipsum illum quis eius.</p>
         </div>
 
         <div class="col-sm-4">
@@ -59,11 +58,7 @@
           <br>
           <h2>Últimas Noticias</h2>
           <ul>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="">Ver más <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            <li><a href="noticia.php">JSCHNELL GROUP, estuvo durante los últimos días en la Cdad. Capital de Salta.</a></li>
           </ul>
         </div><!-- well -->
       </div>
@@ -84,13 +79,45 @@
       var map;
       function initialize() {
         var mapOptions = {
-          zoom: 8,
+          zoom: 12,
           scrollwheel: false,
-          center: new google.maps.LatLng(-34.397, 150.644),
+          center: new google.maps.LatLng(-24.779877,-65.412651),
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         map = new google.maps.Map(document.getElementById('map-canvas-noticia'),
             mapOptions);
+        setMarkers(map, beaches);
+      }
+
+    var beaches = [
+        ['Salta', -24.779877,-65.412651, 1],
+      ];
+
+      function setMarkers(map, locations) {
+
+        var image = {
+          url: 'img/map.png',
+          size: new google.maps.Size(32, 32),
+          origin: new google.maps.Point(0,0),
+          anchor: new google.maps.Point(02, 40)
+        };
+
+        var shape = {
+            coord: [1, 1, 1, 20, 18, 20, 18 , 1],
+            type: 'poly'
+        };
+        for (var i = 0; i < locations.length; i++) {
+          var beach = locations[i];
+          var myLatLng = new google.maps.LatLng(beach[1], beach[2]);
+          var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              icon: image,
+              shape: shape,
+              title: beach[0],
+              zIndex: beach[3]
+          });
+        }
       }
 
       google.maps.event.addDomListener(window, 'load', initialize);

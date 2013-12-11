@@ -38,38 +38,15 @@
         <div class="col-sm-8">
           <h1>Noticias</h1>
           <article>
-            <h2>Título de una noticia de ejemplo</h2>
-            <time>Jueves 12 de Noviembre de 2013</time>
+            <h2>JSCHNELL GROUP, estuvo durante los últimos días en la Cdad. Capital de Salta.</h2>
+            <time>Salta, Lunes 09 de Diciembre de 2013</time>
             <img class="img-responsive" src="img/new01.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
+            <p>Terminando de Poner en Marcha, el "Sistema Central de Frío Alimentario", en la nueva Sucursal de la cadena local, DAMESCO.</p>
             <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
           </article>
           <hr>
-          <article>
-            <h2>Título de una noticia de ejemplo</h2>
-            <time>Jueves 12 de Noviembre de 2013</time>
-            <img class="img-responsive" src="img/new02.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
-          </article>
-          <hr>
-          <article>
-            <h2>Título de una noticia de ejemplo</h2>
-            <time>Jueves 12 de Noviembre de 2013</time>
-            <img class="img-responsive" src="img/new03.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
-          </article>
-          <hr>
-          <article>
-            <h2>Título de una noticia de ejemplo</h2>
-            <time>Jueves 12 de Noviembre de 2013</time>
-            <img class="img-responsive" src="img/new01.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo.</p>
-            <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
-          </article>
 
-          <ul class="pagination">
+          <!--ul class="pagination">
             <li><a href="#">&laquo;</a></li>
             <li><a href="#">2</a></li>
             <li><a href="#">3</a></li>
@@ -80,7 +57,7 @@
             <li><a href="#">8</a></li>
             <li><a href="#">9</a></li>
             <li><a href="#">&raquo;</a></li>
-          </ul>
+          </ul-->
 
         </div>
 
@@ -100,11 +77,7 @@
           <div class="col-xs-12 col-sm-12">
             <h2>Últimas Noticias</h2>
             <ul>
-              <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-              <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-              <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-              <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-              <li><a href=""><i class="glyphicon glyphicon-plus"></i> Ver más</a></li>
+              <li><a href="noticia.php">JSCHNELL GROUP, estuvo durante los últimos días en la Cdad. Capital de Salta.</a></li>
             </ul>
           </div>
 

@@ -36,28 +36,9 @@
       <div class="row">
         <div class="col-sm-8">
           <h1>Nosotros</h1>
-          <ul>
-            <li>tecnología/respaldo arneg</li>
-            <li>experiencia / tiempo en la industria</li>
-            <li>alcance provincial/internacional (mapa)</li>
-            <li>carácter ambiental</li>
-            <li>Nombrar empresas con las que se trabaja (?)</li>
-            <li>
-              <p>Nuestro emprendedor proyecto ha crecido gracias a la evolución de las tecnologías inteligentes. sto conlleva abuscar propios objetivos económicos interactuando con el medio ambiente, la sociedad y sus clientes.</p>
-              <p>El mejoramiento continuo de la calidad de vida es parte fundamental de nuestros objetivos.</p>
-            </li>
-          </ul>
-          <p>Ejemplos:</p>
-          <strong>NO</strong>
-          <br>
-          <a href="http://www.hormetal.com/institucional-2/#"> institucional hormetal</a>
-          <br>
-          <strong>SI</strong>
-          <br>
-          <a href="http://www.bancocredicoop.coop/nuestrobanco/institucional.html">institucional banco credicop</a>
-          <a href="http://www.ostapovich.com/grupo/">historia grupo ostapovich</a>
-          <a href="http://www.aitec-intl.com/articulo/18/la-responsabilidad-ambiental-%BFcomo-afecta-a-mi-empresa%3F/">responsabilidad ambiental</a>
-          <a href="http://www.masisa.com/chi/nosotros/desarrollo-sostenible/responsabilidad-ambiental.html">responsabilidad ambiental</a>
+          <h2>Nuestra filosofía</h2>
+          <p>Nos proyectamos al futuro con paso sostenido, creyendo firmemente en nuestros principios éticos, técnicos, comerciales y vocación de servicio. Logrando así, una expansión creciente en nuestras líneas de productos y servicios profesionales.</p>
+          <p>Lo cual nos gratifica y consolida en el segmento.</p>
         </div>
 
         <div class="col-sm-4">

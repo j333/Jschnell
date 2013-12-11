@@ -141,8 +141,9 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-12">
-                  <strong><p>En función de sus requerimientos le proveemos una propuesta con la mejor solución, la valuación de la misma, la elaboración del proyecto ejecutivo con definiciones de las características de terminación y montaje con llave en mano.</p>
-                  <p>A través del servicio de Construcción y Montaje Industrial se da respuesta a las crecientes necesidades en el mercado de la construcción, montaje industrial, puesta en marcha y mantenimiento de instalaciones industriales de manera <em>“estandar”</em> o a medida.</p></strong>
+                  <p><strong>Proveemos la Ingeniería, Logística, Suministros Específicos, Productos, Piping, Montaje e Instalación de todo lo necesario. Como también nos responsabilizamos por la Operación, Gestión y Dirección de vuestro Obra Minorista, Industrial o Comercial.</strong></p>
+                  <p><strong>Acompañando sus Proyectos desde la Idea Gral., el Diseño, y hasta la Puesta en Marcha.</strong></p>
+                  <p><strong>Contamos ademas, con Servicio Tecnico Especializado, Post Venta y Coberturas de Garantías las 24 hs. todo el año!</strong></p>
                 </div>
               </div><!-- /.row -->
             </div><!-- /.container -->

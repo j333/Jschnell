@@ -5,27 +5,27 @@
             <div class="col-sm-3">
               <h3>Productos</h3>
               <ul>
-                <li><a href="">Paneles Termoaislantes</a></li>
-                <li><a href="">Equipamiento Comercial</a></li>
-                <li><a href="">Sistemas Frigoríficos</a></li>
+                <li><a href="productos.php#info_paneles_termicos">Paneles Termoaislantes</a></li>
+                <li><a href="productos.php#info_equipamiento_comercial">Equipamiento Comercial</a></li>
+                <li><a href="productos.php#info_sistemas_frigorificos">Sistemas Frigoríficos</a></li>
               </ul>
             </div>
 
             <div class="col-sm-3">
               <h3>Servicios</h3>
               <ul>
-                <li><a href="">Montajes</a></li>
-                <li><a href="">Servicio Técnico</a></li>
-                <li><a href="">Instalaciones</a></li>
+                <li><a href="servicios.php#info_montajes">Montajes</a></li>
+                <li><a href="servicios.php#info_servicio">Servicio Técnico</a></li>
+                <li><a href="servicios.php#info_instalaciones">Instalaciones</a></li>
               </ul>
             </div>
 
             <div class="col-sm-3">
               <h3>Nosotros</h3>
               <ul>
-                <li><a href="">Ultimas noticias</a></li>
-                <li><a href="">Medio Ambiente</a></li>
-                <li><a href="">Certificación</a></li>
+                <li><a href="nosotros.php">Nuestra filosofía</a></li>
+                <li><a href="nosotros.php#medioambiente">Medio Ambiente</a></li>
+                <li><a href="noticias.php">Ultimas noticias</a></li>
               </ul> 
             </div>
 
