@@ -154,7 +154,7 @@
       <br>
       <div id="info_montajes" class="row">
         <div class="col-sm-4">
-          <img class="img-responsive" src="img/servicios_2.jpg" alt="">
+          <img class="img-responsive img-thumbnail" src="img/servicios_2.jpg" alt="">
         </div>
         <div class="col-sm-8">
           <br>
@@ -170,13 +170,13 @@
           <p> Contamos con personal idóneo especialmente capacitado para garantizarle el correcto funcionamineto e implementación de la obra. Puede también extender la garantía de la marca y la posibilidad de contar con servicio técnico, mano de obra especializada y repuestos de sus productos, además de otros beneficios adicionales.</p>
         </div>
         <div class="col-sm-4">
-          <img class="img-responsive" src="img/servicios_1.jpg" alt="">
+          <img class="img-responsive img-thumbnail" src="img/servicios_1.jpg" alt="">
         </div>
       </div>
       <hr>
       <div id="info_instalaciones" class="row">
         <div class="col-sm-4">
-          <img class="img-responsive" src="img/servicios_3.jpg" alt="">
+          <img class="img-responsive img-thumbnail" src="img/servicios_3.jpg" alt="">
         </div>
         <div class="col-sm-8">
           <br>

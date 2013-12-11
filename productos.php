@@ -201,7 +201,7 @@
               </div>
               <div class="col-sm-4">
                 <br>
-                <img class="img-responsive" src="img/paneles.jpg" alt="">
+                <img class="img-responsive img-thumbnail" src="img/paneles.jpg" alt="">
               </div>
             </div>
             <br>

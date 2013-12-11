@@ -109,7 +109,7 @@
         <div class="col-lg-8">
           <div class="row news">
             <div class="col-lg-8">
-              <img class="img-responsive" src="img/new02.jpg">
+              <img class="img-responsive" src="img/damasco1.jpg">
             </div>
             <div class="col-lg-4">
               <h3>JSCHNELL GROUP, estuvo durante los últimos días en la Cdad. Capital de Salta.</h3>

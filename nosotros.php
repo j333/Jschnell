@@ -43,9 +43,7 @@
 
         <div class="col-sm-4">
           <br>
-          <img class="img-responsive" src="img/new01.jpg" alt="">
-          <br>
-          <img class="img-responsive" src="img/new02.jpg" alt="">
+          <img class="img-responsive img-thumbnail" src="img/servicios_1.jpg" alt="">
         </div><!-- well -->
       </div>
       <br>

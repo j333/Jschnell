@@ -40,7 +40,7 @@
           <article>
             <h2>JSCHNELL GROUP, estuvo durante los últimos días en la Cdad. Capital de Salta.</h2>
             <time>Salta, Lunes 09 de Diciembre de 2013</time>
-            <img class="img-responsive" src="img/new01.jpg" alt="">
+            <img class="img-responsive" src="img/damasco1.jpg" alt="">
             <p>Terminando de Poner en Marcha, el "Sistema Central de Frío Alimentario", en la nueva Sucursal de la cadena local, DAMESCO.</p>
             <p><a href="noticia.php"><i class="glyphicon glyphicon-chevron-right"></i> Continuar leyendo</a></p>
           </article>

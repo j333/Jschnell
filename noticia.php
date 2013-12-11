@@ -41,7 +41,15 @@
           <p>Allí, se realizo el montaje de Camaras Frigoríficas, para alimentos perecederos. También se instalaron todas las exhibidoras para Carnes, Lácteos, Fiambres, Pozos de Frio, para productos Congelados, etc.</p>
           <p>Otra grata experiencia, que compartimos junto a los productos de la línea ARNEG.</p>
           <figure>
-            <img class="img-responsive" src="img/new01.jpg" alt="">
+            <img class="img-responsive" src="img/damasco1.jpg" alt="">
+            <!--figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption-->
+          </figure>
+          <figure>
+            <img class="img-responsive" src="img/damasco2.jpg" alt="">
+            <!--figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption-->
+          </figure>
+          <figure>
+            <img class="img-responsive" src="img/damasco3.jpg" alt="">
             <!--figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption-->
           </figure>
           <div id="map-canvas-noticia" class="map-canvas"></div>
