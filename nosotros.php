@@ -37,8 +37,9 @@
         <div class="col-sm-8">
           <h1>Nosotros</h1>
           <h2>Nuestra filosofía</h2>
-          <p>Nos proyectamos al futuro con paso sostenido, creyendo firmemente en nuestros principios éticos, técnicos, comerciales y vocación de servicio. Logrando así, una expansión creciente en nuestras líneas de productos y servicios profesionales.</p>
-          <p>Lo cual nos gratifica y consolida en el segmento.</p>
+          <p>Nos proyectamos al futuro con paso sostenido, creyendo firmemente en nuestros principios éticos, técnicos, comerciales y vocación de servicio, logrando así, una expansión creciente en nuestras líneas de productos y servicios profesionales, lo cual nos gratifica y consolida en el segmento.</p>
+          <p>El mejoramiento continuo, en la calidad y conservación de productos Perecederos es uno de nuestros puntos mas altos.</p>
+          <p>Sabemos de Frio, es nuestra especialidad.</p>
         </div>
 
         <div class="col-sm-4">
@@ -61,6 +62,7 @@
               <li>Aseguramiento en todos los procesos del cumplimiento de los límites establecidos o prescriptos por la normativa vigente sobre la protección del medio ambiente, seguridad y salud.</li>
               <li>Garantía de mejora contínua en aspectos ambientales, medidas de prevención y protección de riesgos laborales.</li>
             </ul>
+            <p>Nuestro emprendedor Proyecto, a podido ir creciendo gracias fundamentalmente a las nuevas tecnologías, y a nuestro compromiso con el ahorro energético. Búsqueda permanente de objetivos propios, con apego a la excelencia de nuestras praestaciones, interactúando y respetando el Medio Ambiente, la Sociedad, y lo mas importante: los Sueños y Proyectos de Nuestros Clientes.</p>
           </div>
         </div><!-- /.row -->
       </div><!-- /.container -->

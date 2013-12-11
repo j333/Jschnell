@@ -180,7 +180,7 @@
         ['Supermercados De la Montaña - Neuquén', -38.898515,-71.333252, 3],
         ['Autoservicio PITTY - Río Negro', -38.668356,-68.220034, 4],
         ['INVAP S.E. - Bariloche', -41.131607,-71.31099, 5],
-        ['Supermercados La Esperanza - San Luis', -51.631657,-69.22657, 6],
+        ['Supermercados La Esperanza - San Luis', -33.674926,-65.458115, 6],
         ['Vea - Tucumán', -26.806299,-65.218384, 7],
         ['Mayorista BUJ - Mendoza', -32.874974,-68.831116, 8],
         ['Metalurgica ANDERLUCCI - Mendoza', -32.931471,-68.796097, 9],
