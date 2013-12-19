@@ -37,9 +37,9 @@
 
       <div class="row">
         <div class="col-sm-4">
-          <p>Para más información, asesoramiento personalizado o cualquier tipo de consulta complete el formulario y a la brevedad nos estaremos comunicando con usted.</p>
+          <p>Para más información y asesoramiento personalizado, por favor complete el formulario y a la brevedad nos estaremos comunicando con usted.</p>
           <p>También podemos atenderlo en los siguientes teléfonos</p>
-          <p>0810-123-4567 ó 4123-4567 <br> de lunes a viernes de 9 a 21 hs.</p>
+          <p>+54 2615 888222 o 3415066336 <br> de lunes a viernes de 9 a 21 hs.</p>
           <p>Encuéntrenos en las redes sociales</p>
           <ul class="list-inline">
             <li><a class="ico twitter" href=""></a></li>

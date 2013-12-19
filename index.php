@@ -176,7 +176,7 @@
 
       var beaches = [
         ['VEA - Complejo Patio Palmeras, Catamarca', -28.467484,-65.77932, 1],
-        ['VEA - Paso de los Libres, Corrientes', -27.470201,-58.839737, 2],
+        ['VEA - Paso de los Libres, Corrientes', -29.714147,-57.085611, 2],
         ['Supermercados De la Montaña - Neuquén', -38.898515,-71.333252, 3],
         ['Autoservicio PITTY - Río Negro', -38.668356,-68.220034, 4],
         ['INVAP S.E. - Bariloche', -41.131607,-71.31099, 5],
