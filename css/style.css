@@ -156,9 +156,7 @@ padding-top: 2em;
 	width:100%;
 }
 
-.navbar,
-.navbar-brand.logo-nav img,
-.nav {
+.navbar-brand.logo-nav img {
 	transition:.5s ease;
 	height: 58px;
 }
@@ -387,5 +385,26 @@ footer a{
 	#h1_productos,
 	#h1_noticias{
 		display:block;
+	}
+}
+@media (max-width: 768px) {
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	background-color: #000;
+	}
+	.navbar-brand.logo-nav img {
+	height: 30px;
+	}
+	.navbar > .container .navbar-brand {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	}
+	body {
+	border-top: 50px solid;
+	}
+	nav {
+		height: auto;
+	}
+	.nav {
+		margin-top: 0px;
 	}
 }
