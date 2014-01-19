@@ -10,16 +10,18 @@
 			$(".navbar-brand.logo-nav img").css({height: "58px"});
 			$(".nav").css({marginTop: "28px"});
 			$(".navbar-brand.logo-nav").css({paddingTop: "25px"});
-			$("#productos,#servicios").css({top: "50px"});
+			$("#productos,#servicios").css({top: "65px"});
 			$("#subir").hide(0);
+			$(".navbar-nav > li > a").css({paddingBottom: "20px"});
 			return false;
 		}else{
 			$(".navbar").css({height: "50px"});
 			$(".navbar-brand.logo-nav img").css({height: "30px"});
 			$(".nav").css({marginTop: "0px"});
 			$(".navbar-brand.logo-nav").css({paddingTop: "15px"});
-			$("#productos,#servicios").css({top: "40px"});
+			$("#productos,#servicios").css({top: "45px"});
 			$("#subir").show(0);
+			$(".navbar-nav > li > a").css({paddingBottom: "0px"});
 			return false;
 		}
 	}
